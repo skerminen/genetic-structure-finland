@@ -141,8 +141,8 @@ mergeLists <- function( list, index1, index2 ){
 ## SCRIPT
 
 # Read input data
-coanc <- read.table("ChunkProportionsAndGMM/Example_data.chunkcounts.out", header = T, row.names = 1)
-pops <- read.table("ChunkProportionsAndGMM/Example_data_populations.txt", header = T)
+coanc <- read.table("examples/Example_data.chunkcounts.out", header = T, row.names = 1)
+pops <- read.table("examples/Example_data_populations.txt", header = T)
 poplevel <- 4
 tvdlevel <- 4
 

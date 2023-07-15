@@ -115,7 +115,7 @@ univar.gaussian.loglkhood <- function (y,mu,sigma,w){
 ###### EXAMPLE SCRIPT ####################
 
 # Read input 
-coanc <- read.table("Example_data.chunkcounts.out", h = T, row.names = 1) # coancestry matrix
+coanc <- read.table("examples/Example_data.chunkcounts.out", h = T, row.names = 1) # coancestry matrix
 refindividuals1 <- paste("IND", 1:10, sep = "") # Lets use first ten inds from the coanc as pop1 reference individuals
 refindividuals2 <- paste("IND", 91:100, sep = "") # and last 10 inds as reference inds from other pop
 
